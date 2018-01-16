@@ -45,12 +45,13 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Vladimir Bondarevskiy</Vendor>
-			<Version>0.0.1.3</Version>
+			<Version>0.0.1.4</Version>
 			<CompatibilityMode>Version8_3_10</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<HTTPService>hydra_radmin</HTTPService>
+			<HTTPService>HydraRemoteAdmin</HTTPService>
+			<Catalog>Пользователи</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

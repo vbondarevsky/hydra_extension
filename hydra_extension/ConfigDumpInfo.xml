@@ -1,17 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
 	<ConfigVersions>
-		<Metadata name="Configuration.HYDRA" id="60d121d2-2ccc-47c5-9f45-659d25498987" configVersion="fa2df63c4d059675843902dc0e5385d1baa5af08"/>
-		<Metadata name="HTTPService.hydra_radmin" id="6f17760c-87c0-4e56-beba-ae752b9f5702" configVersion="c9da97fd77df55d23c4702533ef5efa626e336ea">
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.meta.Method.ПолучитьМетаинформацию" id="0dd44165-a644-4a2c-8bcd-fdc6629b9b59"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.user.Method.ПолучитьПользователей" id="4de74c5c-3406-4aed-ac5b-28c7909df174"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.user.Method.ИзменитьПользователя" id="543d6876-016c-4613-af12-dc1abcd0d4c3"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.user" id="9711e0aa-9b24-4982-a4cb-425775629385"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.user.Method.ДобавитьПользователя" id="be18fff6-92bf-4fb8-9cdf-b0789fb402aa"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.user.Method.УдалитьПользователя" id="d1f36c1a-9df8-468b-99a7-ad32d065a78f"/>
-			<Metadata name="HTTPService.hydra_radmin.URLTemplate.meta" id="ffac536b-94cd-495e-8fec-9dc837393510"/>
+		<Metadata name="Catalog.Пользователи" id="b901f1cf-856e-463e-a7a1-03010e0acdf9" configVersion="809ecdcb0abd0a1917db2192f43fb1c22d4bce1d">
+			<Metadata name="Catalog.Пользователи.Attribute.Недействителен" id="082938dc-e113-4319-9019-291e3d56ee97"/>
+			<Metadata name="Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ" id="8076e5d7-98df-4c3f-86e9-454ecf7e323e"/>
+			<Metadata name="Catalog.Пользователи.Attribute.СвойстваПользователяИБ" id="d89033e3-832d-4d8b-b15b-6d172710653b"/>
 		</Metadata>
-		<Metadata name="HTTPService.hydra_radmin.Module" id="6f17760c-87c0-4e56-beba-ae752b9f5702.0" configVersion="638e6d709668a0694a1284a7375d32817e2762e3"/>
+		<Metadata name="Configuration.HYDRA" id="60d121d2-2ccc-47c5-9f45-659d25498987" configVersion="29266526b61a25b7281cfb6bc1b025521cc9a5cd"/>
+		<Metadata name="HTTPService.HydraRemoteAdmin" id="6f17760c-87c0-4e56-beba-ae752b9f5702" configVersion="1da19094aab4f2b8d437aaa854b5aa9bab9b63b9">
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.Metadata.Method.GetMeta" id="0dd44165-a644-4a2c-8bcd-fdc6629b9b59"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.UserManager.Method.GetUser" id="4de74c5c-3406-4aed-ac5b-28c7909df174"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.UserManager.Method.EditUser" id="543d6876-016c-4613-af12-dc1abcd0d4c3"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.UserManager" id="9711e0aa-9b24-4982-a4cb-425775629385"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.UserManager.Method.CreateUser" id="be18fff6-92bf-4fb8-9cdf-b0789fb402aa"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.UserManager.Method.RemoveUser" id="d1f36c1a-9df8-468b-99a7-ad32d065a78f"/>
+			<Metadata name="HTTPService.HydraRemoteAdmin.URLTemplate.Metadata" id="ffac536b-94cd-495e-8fec-9dc837393510"/>
+		</Metadata>
+		<Metadata name="HTTPService.HydraRemoteAdmin.Module" id="6f17760c-87c0-4e56-beba-ae752b9f5702.0" configVersion="cd22db048f5bda438506e2f81d40a28b78c61111"/>
 		<Metadata name="Language.Русский" id="b93de757-0e77-4f3a-926a-c8ce71ef559d" configVersion="3a9e7b11a471860b0080cb33c4633aa178b7a013"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
