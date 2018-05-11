@@ -115,6 +115,49 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="0a5a32b0-a6c1-42ec-ae71-746ee8501d37">
+				<Properties>
+					<Name>PasswordPolicy</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang/>
+							<v8:content>Password policy</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/password_policy/*</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="c380d5cf-0626-4067-aefb-97e9c9966761">
+						<Properties>
+							<Name>GetPolicy</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang/>
+									<v8:content>Get policy</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>PasswordPolicyGetPolicy</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="178bb921-4179-4bc4-b0a1-2b00096e8c99">
+						<Properties>
+							<Name>SetPolicy</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang/>
+									<v8:content>Set policy</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>PasswordPolicySetPolicy</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
