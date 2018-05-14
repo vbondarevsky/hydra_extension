@@ -139,7 +139,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
-							<Handler>PasswordPolicyGetPolicy</Handler>
+							<Handler>GetPasswordPolicy</Handler>
 						</Properties>
 					</Method>
 					<Method uuid="178bb921-4179-4bc4-b0a1-2b00096e8c99">
@@ -153,7 +153,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>PasswordPolicySetPolicy</Handler>
+							<Handler>SetPasswordPolicy</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
